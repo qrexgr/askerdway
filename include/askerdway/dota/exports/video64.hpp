@@ -1,0 +1,62 @@
+// Generated export handles. bind_as<Signature>() requires caller-verified ABI.
+#pragma once
+#include "askerdway/dota_sdk.hpp"
+namespace askerdway::dota::video64::exports {
+inline constexpr export_symbol AllocImageYUV{"video64.dll", "AllocImageYUV", 1};
+inline constexpr export_symbol BConvertYUVtoRGB{"video64.dll", "BConvertYUVtoRGB", 2};
+inline constexpr export_symbol BScaleImageNV12{"video64.dll", "BScaleImageNV12", 3};
+inline constexpr export_symbol BScaleImageYUV{"video64.dll", "BScaleImageYUV", 4};
+inline constexpr export_symbol CreateAudioFileDecoder{"video64.dll", "CreateAudioFileDecoder", 5};
+inline constexpr export_symbol CreateAudioResampler{"video64.dll", "CreateAudioResampler", 6};
+inline constexpr export_symbol CreateInterface{"video64.dll", "CreateInterface", 7};
+inline constexpr export_symbol CreateRTMPStream{"video64.dll", "CreateRTMPStream", 8};
+inline constexpr export_symbol CreateVideoPlayer{"video64.dll", "CreateVideoPlayer", 9};
+inline constexpr export_symbol DeleteAudioFileDecoder{"video64.dll", "DeleteAudioFileDecoder", 10};
+inline constexpr export_symbol DeleteAudioResampler{"video64.dll", "DeleteAudioResampler", 11};
+inline constexpr export_symbol DeleteRTMPStream{"video64.dll", "DeleteRTMPStream", 12};
+inline constexpr export_symbol DeleteVideoDecoder{"video64.dll", "DeleteVideoDecoder", 13};
+inline constexpr export_symbol DeleteVideoEncoder{"video64.dll", "DeleteVideoEncoder", 14};
+inline constexpr export_symbol DeleteVideoPlayer{"video64.dll", "DeleteVideoPlayer", 15};
+inline constexpr export_symbol FreeImageYUV{"video64.dll", "FreeImageYUV", 16};
+inline constexpr export_symbol g_dwDllEntryThreadId{"video64.dll", "g_dwDllEntryThreadId", 57};
+inline constexpr export_symbol RescaleBase{"video64.dll", "RescaleBase", 17};
+inline constexpr export_symbol ValidateImageYUV{"video64.dll", "ValidateImageYUV", 18};
+inline constexpr export_symbol VideoPauseForValidation{"video64.dll", "VideoPauseForValidation", 19};
+inline constexpr export_symbol VideoPlaybackInitialize{"video64.dll", "VideoPlaybackInitialize", 20};
+inline constexpr export_symbol VideoPlaybackRunFrame{"video64.dll", "VideoPlaybackRunFrame", 21};
+inline constexpr export_symbol VideoPlaybackShutdown{"video64.dll", "VideoPlaybackShutdown", 22};
+inline constexpr export_symbol VideoResumeFromValidation{"video64.dll", "VideoResumeFromValidation", 23};
+inline constexpr export_symbol VideoValidate{"video64.dll", "VideoValidate", 24};
+inline constexpr export_symbol VideoValidateStatics{"video64.dll", "VideoValidateStatics", 25};
+inline constexpr export_symbol XMLNormalizeBuf{"video64.dll", "XMLNormalizeBuf", 26};
+inline constexpr export_symbol XMLParser_Create{"video64.dll", "XMLParser_Create", 27};
+inline constexpr export_symbol XMLParser_Free{"video64.dll", "XMLParser_Free", 28};
+inline constexpr export_symbol XMLParser_GetCurrentColumn{"video64.dll", "XMLParser_GetCurrentColumn", 29};
+inline constexpr export_symbol XMLParser_GetCurrentEntity{"video64.dll", "XMLParser_GetCurrentEntity", 30};
+inline constexpr export_symbol XMLParser_GetCurrentLine{"video64.dll", "XMLParser_GetCurrentLine", 31};
+inline constexpr export_symbol XMLParser_GetNamedItem{"video64.dll", "XMLParser_GetNamedItem", 32};
+inline constexpr export_symbol XMLParser_GetPrefixMapping{"video64.dll", "XMLParser_GetPrefixMapping", 33};
+inline constexpr export_symbol XMLParser_GetPublicID{"video64.dll", "XMLParser_GetPublicID", 34};
+inline constexpr export_symbol XMLParser_GetSystemID{"video64.dll", "XMLParser_GetSystemID", 35};
+inline constexpr export_symbol XMLParser_GetVersionString{"video64.dll", "XMLParser_GetVersionString", 36};
+inline constexpr export_symbol XMLParser_Parse{"video64.dll", "XMLParser_Parse", 37};
+inline constexpr export_symbol XMLPool_Alloc{"video64.dll", "XMLPool_Alloc", 38};
+inline constexpr export_symbol XMLPool_Create{"video64.dll", "XMLPool_Create", 39};
+inline constexpr export_symbol XMLPool_Free{"video64.dll", "XMLPool_Free", 40};
+inline constexpr export_symbol XMLPool_FreePool{"video64.dll", "XMLPool_FreePool", 41};
+inline constexpr export_symbol XMLStringbuf_Append{"video64.dll", "XMLStringbuf_Append", 42};
+inline constexpr export_symbol XMLStringbuf_AppendCh{"video64.dll", "XMLStringbuf_AppendCh", 43};
+inline constexpr export_symbol XMLStringbuf_Free{"video64.dll", "XMLStringbuf_Free", 44};
+inline constexpr export_symbol XMLStringbuf_Init{"video64.dll", "XMLStringbuf_Init", 45};
+inline constexpr export_symbol XMLStringbuf_InitUsePool{"video64.dll", "XMLStringbuf_InitUsePool", 46};
+inline constexpr export_symbol XMLStringbuf_SetLength{"video64.dll", "XMLStringbuf_SetLength", 47};
+inline constexpr export_symbol XMLStringbuf_ToString{"video64.dll", "XMLStringbuf_ToString", 48};
+inline constexpr export_symbol XMLVector_Append{"video64.dll", "XMLVector_Append", 49};
+inline constexpr export_symbol XMLVector_Create{"video64.dll", "XMLVector_Create", 50};
+inline constexpr export_symbol XMLVector_Free{"video64.dll", "XMLVector_Free", 51};
+inline constexpr export_symbol XMLVector_Get{"video64.dll", "XMLVector_Get", 52};
+inline constexpr export_symbol XMLVector_InsertBefore{"video64.dll", "XMLVector_InsertBefore", 53};
+inline constexpr export_symbol XMLVector_Remove{"video64.dll", "XMLVector_Remove", 54};
+inline constexpr export_symbol XMLVector_Replace{"video64.dll", "XMLVector_Replace", 55};
+inline constexpr export_symbol XMLVector_Resize{"video64.dll", "XMLVector_Resize", 56};
+}

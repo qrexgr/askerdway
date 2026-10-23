@@ -1,0 +1,23 @@
+[package]
+name = "askerdway_intelligence"
+version = "0.1.0"
+edition = "2024"
+publish = false
+authors = ["qrexgr"]
+repository = "https://github.com/qrexgr/askerdway"
+build = "build.rs"
+
+[lib]
+crate-type = ["rlib", "staticlib"]
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+debug = 0
+strip = "debuginfo"
+
+[lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+
+[lints.clippy]
+undocumented_unsafe_blocks = "deny"

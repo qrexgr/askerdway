@@ -1,0 +1,23 @@
+name: Change request
+description: Propose work for the owner to approve.
+title: "[Request] "
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired result
+      description: Describe the problem and the result you need.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Describe how the result can be checked.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and alternatives
+      description: Mention compatibility, performance, and scope constraints.

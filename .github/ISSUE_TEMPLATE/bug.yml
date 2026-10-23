@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a reproducible problem.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the source commit, Dota build, Windows version, and enabled features.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Include relevant logs or screenshots. Remove credentials and personal information.

@@ -1,0 +1,63 @@
+// Generated export handles. bind_as<Signature>() requires caller-verified ABI.
+#pragma once
+#include "askerdway/dota_sdk.hpp"
+namespace askerdway::dota::rendersystemvulkan::exports {
+inline constexpr export_symbol BinaryProperties_GetValue{"rendersystemvulkan.dll", "BinaryProperties_GetValue", 1};
+inline constexpr export_symbol CreateInterface{"rendersystemvulkan.dll", "CreateInterface", 2};
+inline constexpr export_symbol ExtractModuleMetadata{"rendersystemvulkan.dll", "ExtractModuleMetadata", 3};
+inline constexpr export_symbol ffxFsr2ContextCreate{"rendersystemvulkan.dll", "ffxFsr2ContextCreate", 41};
+inline constexpr export_symbol ffxFsr2ContextDestroy{"rendersystemvulkan.dll", "ffxFsr2ContextDestroy", 42};
+inline constexpr export_symbol ffxFsr2ContextDispatch{"rendersystemvulkan.dll", "ffxFsr2ContextDispatch", 43};
+inline constexpr export_symbol ffxFsr2ContextGenerateReactiveMask{"rendersystemvulkan.dll", "ffxFsr2ContextGenerateReactiveMask", 44};
+inline constexpr export_symbol ffxFsr2GetInterfaceVK{"rendersystemvulkan.dll", "ffxFsr2GetInterfaceVK", 45};
+inline constexpr export_symbol ffxFsr2GetJitterOffset{"rendersystemvulkan.dll", "ffxFsr2GetJitterOffset", 46};
+inline constexpr export_symbol ffxFsr2GetJitterPhaseCount{"rendersystemvulkan.dll", "ffxFsr2GetJitterPhaseCount", 47};
+inline constexpr export_symbol ffxFsr2GetRenderResolutionFromQualityMode{"rendersystemvulkan.dll", "ffxFsr2GetRenderResolutionFromQualityMode", 48};
+inline constexpr export_symbol ffxFsr2GetScratchMemorySizeVK{"rendersystemvulkan.dll", "ffxFsr2GetScratchMemorySizeVK", 49};
+inline constexpr export_symbol ffxFsr2GetUpscaleRatioFromQualityMode{"rendersystemvulkan.dll", "ffxFsr2GetUpscaleRatioFromQualityMode", 50};
+inline constexpr export_symbol ffxFsr2ResourceIsNull{"rendersystemvulkan.dll", "ffxFsr2ResourceIsNull", 51};
+inline constexpr export_symbol ffxGetBufferResourceVK{"rendersystemvulkan.dll", "ffxGetBufferResourceVK", 52};
+inline constexpr export_symbol ffxGetCommandListVK{"rendersystemvulkan.dll", "ffxGetCommandListVK", 53};
+inline constexpr export_symbol ffxGetDeviceVK{"rendersystemvulkan.dll", "ffxGetDeviceVK", 54};
+inline constexpr export_symbol ffxGetTextureResourceVK{"rendersystemvulkan.dll", "ffxGetTextureResourceVK", 55};
+inline constexpr export_symbol ffxGetVkImage{"rendersystemvulkan.dll", "ffxGetVkImage", 56};
+inline constexpr export_symbol ffxGetVkImageLayout{"rendersystemvulkan.dll", "ffxGetVkImageLayout", 57};
+inline constexpr export_symbol ffxGetVkImageView{"rendersystemvulkan.dll", "ffxGetVkImageView", 58};
+inline constexpr export_symbol GetResourceManifestCount{"rendersystemvulkan.dll", "GetResourceManifestCount", 4};
+inline constexpr export_symbol GetResourceManifests{"rendersystemvulkan.dll", "GetResourceManifests", 5};
+inline constexpr export_symbol InstallSchemaBindings{"rendersystemvulkan.dll", "InstallSchemaBindings", 6};
+inline constexpr export_symbol NVSDK_NGX_Parameter_GetD{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_GetD", 7};
+inline constexpr export_symbol NVSDK_NGX_Parameter_GetD3d11Resource{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_GetD3d11Resource", 8};
+inline constexpr export_symbol NVSDK_NGX_Parameter_GetD3d12Resource{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_GetD3d12Resource", 9};
+inline constexpr export_symbol NVSDK_NGX_Parameter_GetF{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_GetF", 10};
+inline constexpr export_symbol NVSDK_NGX_Parameter_GetI{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_GetI", 11};
+inline constexpr export_symbol NVSDK_NGX_Parameter_GetUI{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_GetUI", 12};
+inline constexpr export_symbol NVSDK_NGX_Parameter_GetULL{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_GetULL", 13};
+inline constexpr export_symbol NVSDK_NGX_Parameter_GetVoidPointer{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_GetVoidPointer", 14};
+inline constexpr export_symbol NVSDK_NGX_Parameter_SetD{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_SetD", 15};
+inline constexpr export_symbol NVSDK_NGX_Parameter_SetD3d11Resource{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_SetD3d11Resource", 16};
+inline constexpr export_symbol NVSDK_NGX_Parameter_SetD3d12Resource{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_SetD3d12Resource", 17};
+inline constexpr export_symbol NVSDK_NGX_Parameter_SetF{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_SetF", 18};
+inline constexpr export_symbol NVSDK_NGX_Parameter_SetI{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_SetI", 19};
+inline constexpr export_symbol NVSDK_NGX_Parameter_SetUI{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_SetUI", 20};
+inline constexpr export_symbol NVSDK_NGX_Parameter_SetULL{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_SetULL", 21};
+inline constexpr export_symbol NVSDK_NGX_Parameter_SetVoidPointer{"rendersystemvulkan.dll", "NVSDK_NGX_Parameter_SetVoidPointer", 22};
+inline constexpr export_symbol NVSDK_NGX_UpdateFeature{"rendersystemvulkan.dll", "NVSDK_NGX_UpdateFeature", 23};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_AllocateParameters{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_AllocateParameters", 24};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_CreateFeature{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_CreateFeature", 25};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_CreateFeature1{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_CreateFeature1", 26};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_DestroyParameters{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_DestroyParameters", 27};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_EvaluateFeature{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_EvaluateFeature", 28};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_EvaluateFeature_C{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_EvaluateFeature_C", 29};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_GetCapabilityParameters{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_GetCapabilityParameters", 30};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_GetFeatureDeviceExtensionRequirements{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_GetFeatureDeviceExtensionRequirements", 31};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_GetFeatureInstanceExtensionRequirements{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_GetFeatureInstanceExtensionRequirements", 32};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_GetFeatureRequirements{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_GetFeatureRequirements", 33};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_GetParameters{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_GetParameters", 34};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_GetScratchBufferSize{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_GetScratchBufferSize", 35};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_Init{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_Init", 36};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_ReleaseFeature{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_ReleaseFeature", 37};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_RequiredExtensions{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_RequiredExtensions", 38};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_Shutdown{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_Shutdown", 39};
+inline constexpr export_symbol NVSDK_NGX_VULKAN_Shutdown1{"rendersystemvulkan.dll", "NVSDK_NGX_VULKAN_Shutdown1", 40};
+}

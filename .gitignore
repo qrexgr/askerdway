@@ -1,0 +1,11 @@
+/build/
+/build-*/
+/target/
+**/target/
+/.vs/
+*.obj
+*.pdb
+*.ilk
+*.log
+__pycache__/
+*.py[cod]

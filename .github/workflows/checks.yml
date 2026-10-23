@@ -1,0 +1,49 @@
+name: Pull request checks
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  repository:
+    name: Repository hygiene
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Check tracked files and obvious credentials
+        run: python3 .github/scripts/check_repository.py
+      - name: Check changed-line whitespace
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: git -c core.whitespace=blank-at-eol,blank-at-eof diff --check "$BASE_SHA" "$HEAD_SHA"
+
+  rust:
+    name: Rust checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install the pinned toolchain
+        run: rustup show active-toolchain
+      - name: Check formatting
+        run: cargo fmt --manifest-path src/intelligence/Cargo.toml -- --check
+      - name: Lint
+        run: cargo clippy --manifest-path src/intelligence/Cargo.toml --all-targets --locked --offline -- -D warnings
+      - name: Compile and run available test targets
+        run: cargo test --manifest-path src/intelligence/Cargo.toml --locked --offline

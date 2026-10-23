@@ -1,0 +1,10 @@
+// Встроенные ресурсы DLL: ID согласованы с src/ui/sidebar_icon_resources.h.
+// Атлас входит в бинарник; runtime не загружает PNG из рабочего каталога.
+
+#include "src/ui/sidebar_icon_resources.h"
+
+IDR_ARMLET_MENU_ICON RCDATA "assets/icons/armlet_menu_64.png"
+IDR_HERO_PORTRAIT_ATLAS RCDATA "assets/icons/dota2_hero_portrait_atlas.png"
+IDR_ABILITY_ICON_ATLAS RCDATA "assets/icons/dota2_ability_atlas.png"
+IDR_NORDWAND_REGULAR RCDATA "assets/fonts/NordwandMono-Regular.ttf"
+IDR_NORDWAND_BOLD RCDATA "assets/fonts/NordwandMono-Bold.ttf"
